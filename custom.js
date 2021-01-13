@@ -130,7 +130,7 @@ checkLogin()
 function checkLogin(){
   document.getElementById("logout").onclick = function(){
     localStorage.clear()
-    window.location = "login.html"
+    window.location = "index.html"
   }
 }
 
